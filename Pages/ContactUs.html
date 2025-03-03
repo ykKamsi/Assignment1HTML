@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Website Dedicated To a Video Game and the company behind it">
+    <meta name="keywords" content="Gaming, Roblox, Game, Video Game">
+    <meta name="author" content="Kamsi Okafor">
+    <title>Where and How To Contact Stage Fright Developers</title>
+    <link rel="stylesheet" href="../Assets/css/Styles.css">
+</head>
+<body>
+    <header>
+        <form method="get"> 
+            <label for="search"></label>
+            <input type="search"
+            id="search"
+            name="search"
+            placeholder="Search"
+            />
+        </form>
+        <img id="tableImage" src="../Assets/Images/Fright.png" alt="Stage Fright Logo" title="Stage Fright Red and Black">
+        <table class="NavTables">
+            <thead>
+                <tr>
+                    <nav>
+                        <th><a href="../index.html" class="navText">Home</a></th>
+                        <th><a href="../Pages/AboutUs.html" class="navText">About Us</a></th>
+                        <th><a href="../Pages/ContactUs.html" class="active">Contact Us</a></th>
+                    </nav>
+                </tr>
+            </thead>
+        </table>
+    </header>
+
+    
+    <main>
+        <section class="MidSectionColour">
+            <h2>Contact Info</h2>
+            <form id="formOne" method="get">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <dl>
+                        <dt>First Name*</dt>
+                        <dd>
+                            <input type="text"
+                            id="fname"
+                            placeholder="First"
+                            required
+                            autofocus
+                            />
+                        </dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt>Last Name*</dt>
+                        <dd>
+                            <input type="text"
+                            id="Lname"
+                            placeholder="Last"
+                            required
+                            />
+                        </dd>
+                    </dl>
+    
+                    <dl>
+                        <dt>Email*</dt>
+                        <dd>
+                            <input type="email"
+                            id="email"
+                            placeholder="someone@example.com"
+                            required
+                            />
+                        </dd>
+                    </dl>
+    
+                    <dl>
+                        <dt>Phone Number*</dt>
+                        <dd>
+                            <input type="tel"
+                            id="tel"
+                            placeholder="123-456-7890"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            maxlength="12"
+                            required
+                            />
+                        </dd>
+                    </dl>
+        
+    
+                    <dl>
+                        <dt>Subscribe To Emails</dt>
+                        <dd>
+                            <label for="Yes">Yes</label>
+                            <input type="radio"
+                            name="SubToEmails"
+                            id="Yes"
+                            value="Yes"
+                            checked
+                            /> 
+        
+                            <label for="No">No</label>
+                            <input type="radio"
+                            name="SubToEmails"
+                            id="No"
+                            value="No"
+                            />
+                        </dd>
+                    </dl>
+
+                    
+                    <dl>
+                        <dt>Preferred Subscription Method</dt>
+                        <dd>
+                            
+                            <input type="checkbox"
+                             name="checkboxes[]"
+                            id="option1"
+                            />
+                            <label for="option1">Phone Number</label>
+        
+                            
+                            <input type="checkbox"
+                            name="checkboxes[]"
+                            id="option2"
+                            />
+                            <label for="option2">Email</label>
+
+                            <input type="checkbox"
+                            name="checkboxes[]"
+                            id="option3"
+                            />
+                            <label for="option3">Postal Mail</label>
+                           
+                        </dd>
+                    </dl>
+                </fieldset>
+                <br>
+                <input type="submit" value="submit"> <input type="reset" value="reset">
+    
+    
+            </form>
+        </section>
+    
+        <section>
+            <h2 class="IntersectionText">Only You Can Conquer Fear</h2>
+        </section>
+    
+        <section class="MidSectionColour">
+            <h2>Mail Us!</h2>
+
+            <form id="formTwo" method="post" action="mailto:someone@email.com">
+                <fieldset>
+                    <legend>Send a Message!</legend>
+                    <dl>
+                        <dt>Subject</dt>
+                        <dd>
+                            <textarea name="subject" placeholder="Type Subject" rows="1" cols="40"></textarea>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Body</dt>
+                        <dd>
+                            <textarea name="body" placeholder="Type Body" rows="10" cols="80"></textarea>
+                        </dd>
+                    </dl>
+
+
+                </fieldset>
+                <br>
+                <input type="submit" value="submit"> <input type="reset" value="reset">
+            </form>
+    
+        </section>
+
+    </main>
+    <br>
+    <br>
+    <br>
+
+    <footer class="MidSectionColour">
+    <h4 class="AlignCenter">Follow Us!</h4>
+    <dl class="WhiteTextColor">
+        <dt>Social Medias</dt>
+        <dd >
+            <a href="https://www.instagram.com/" target="_blank" class="BlackTextColor">Instagram</a>
+            <a href="https://www.X.com/" target="_blank" class="BlackTextColor">Twitter</a>
+            <a href="https://www.youtube.com/" target="_blank" class="BlackTextColor">YouTube</a>
+
+        </dd>
+    </dl>
+
+
+    <p class="copyRight">&copy; 2025 Stage Fright. All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
